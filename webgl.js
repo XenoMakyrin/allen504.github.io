@@ -45,7 +45,6 @@ canvas.addEventListener('mouseout', function(e) {
 });
 
 canvas.addEventListener('click', function(e) {
-  ball.vy += 5.0;
 });
 
 ball.draw();
