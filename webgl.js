@@ -44,5 +44,9 @@ canvas.addEventListener('mouseout', function(e) {
   window.cancelAnimationFrame(raf);
 });
 
+canvas.addEventListener('click', function(e) {
+  ball.vy += 1.0;
+});
+
 ball.draw();
 
